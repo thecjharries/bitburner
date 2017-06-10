@@ -1,3 +1,20 @@
 Changelog.txt
 Netburner.txt
 README.md
+
+# Editor stuff (mostly overkill)
+.idea
+*.sublime-*
+# https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# General node stuff
+# https://github.com/github/gitignore/blob/master/Node.gitignore
+# Logs
+npm-debug.log*
+# Dependency directories
+node_modules/

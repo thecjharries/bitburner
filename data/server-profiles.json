@@ -1,7 +1,7 @@
 [{
     "variableName": "IronGymServer",
     "hostname": "iron-gym",
-    "organizationName": "Iron Gym Network",
+    "organization": "Iron Gym Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -16,7 +16,7 @@
 }, {
     "variableName": "FoodNStuffServer",
     "hostname": "foodnstuff",
-    "organizationName": "Food N Stuff Supermarket",
+    "organization": "Food N Stuff Supermarket",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -31,7 +31,7 @@
 }, {
     "variableName": "SigmaCosmeticsServer",
     "hostname": "sigma-cosmetics",
-    "organizationName": "Sigma Cosmetics",
+    "organization": "Sigma Cosmetics",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -46,7 +46,7 @@
 }, {
     "variableName": "JoesGunsServer",
     "hostname": "joesguns",
-    "organizationName": "Joe's Guns",
+    "organization": "Joe's Guns",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -61,7 +61,7 @@
 }, {
     "variableName": "HongFangTeaHouseServer",
     "hostname": "hong-fang-tea",
-    "organizationName": "HongFang Teahouse",
+    "organization": "HongFang Teahouse",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -76,7 +76,7 @@
 }, {
     "variableName": "HaraKiriSushiBarServer",
     "hostname": "harakiri-sushi",
-    "organizationName": "HaraKiri Sushi Bar Network",
+    "organization": "HaraKiri Sushi Bar Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -91,7 +91,7 @@
 }, {
     "variableName": "MaxHardwareServer",
     "hostname": "max-hardware",
-    "organizationName": "Max Hardware Store",
+    "organization": "Max Hardware Store",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -106,7 +106,7 @@
 }, {
     "variableName": "NectarNightclubServer",
     "hostname": "nectar-net",
-    "organizationName": "Nectar Nightclub Network",
+    "organization": "Nectar Nightclub Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -121,7 +121,7 @@
 }, {
     "variableName": "Zer0NightclubServer",
     "hostname": "zer0",
-    "organizationName": "ZER0 Nightclub",
+    "organization": "ZER0 Nightclub",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -136,7 +136,7 @@
 }, {
     "variableName": "CyberSecServer",
     "hostname": "CSEC",
-    "organizationName": "CyberSec",
+    "organization": "CyberSec",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -152,7 +152,7 @@
 }, {
     "variableName": "OmegaSoftwareServer",
     "hostname": "omega-net",
-    "organizationName": "Omega Software",
+    "organization": "Omega Software",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -167,7 +167,7 @@
 }, {
     "variableName": "PhantasyServer",
     "hostname": "phantasy",
-    "organizationName": "Phantasy Club",
+    "organization": "Phantasy Club",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -182,7 +182,7 @@
 }, {
     "variableName": "SilverHelixServer",
     "hostname": "silver-helix",
-    "organizationName": "Silver Helix",
+    "organization": "Silver Helix",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -197,7 +197,7 @@
 }, {
     "variableName": "NeoNightclubServer",
     "hostname": "neo-net",
-    "organizationName": "Neo Nightclub Network",
+    "organization": "Neo Nightclub Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -212,7 +212,7 @@
 }, {
     "variableName": "CrushFitnessGymServer",
     "hostname": "crush-fitness",
-    "organizationName": "Crush Fitness",
+    "organization": "Crush Fitness",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -227,7 +227,7 @@
 }, {
     "variableName": "NetLinkTechnologiesServer",
     "hostname": "netlink",
-    "organizationName": "NetLink Technologies",
+    "organization": "NetLink Technologies",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -242,7 +242,7 @@
 }, {
     "variableName": "CompuTekServer",
     "hostname": "comptek",
-    "organizationName": "CompuTek",
+    "organization": "CompuTek",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -257,7 +257,7 @@
 }, {
     "variableName": "TheHubServer",
     "hostname": "the-hub",
-    "organizationName": "The Hub",
+    "organization": "The Hub",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -272,7 +272,7 @@
 }, {
     "variableName": "JohnsonOrthopedicsServer",
     "hostname": "johnson-ortho",
-    "organizationName": "Johnson Orthopedics",
+    "organization": "Johnson Orthopedics",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -287,7 +287,7 @@
 }, {
     "variableName": "NiteSecServer",
     "hostname": "avmnite-02h",
-    "organizationName": "NiteSec",
+    "organization": "NiteSec",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -303,7 +303,7 @@
 }, {
     "variableName": "CatalystVenturesServer",
     "hostname": "catalyst",
-    "organizationName": "Catalyst Ventures",
+    "organization": "Catalyst Ventures",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -318,7 +318,7 @@
 }, {
     "variableName": "SysCoreSecuritiesServer",
     "hostname": "syscore",
-    "organizationName": "SysCore Securities",
+    "organization": "SysCore Securities",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -333,7 +333,7 @@
 }, {
     "variableName": "SummitUniversityServer",
     "hostname": "summit-uni",
-    "organizationName": "Summit University Network",
+    "organization": "Summit University Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -348,7 +348,7 @@
 }, {
     "variableName": "ZBInstituteOfTechnologyServer",
     "hostname": "zb-institute",
-    "organizationName": "ZB Institute of Technology Network",
+    "organization": "ZB Institute of Technology Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -363,7 +363,7 @@
 }, {
     "variableName": "RothmanUniversityServer",
     "hostname": "rothman-uni",
-    "organizationName": "Rothman University Network",
+    "organization": "Rothman University Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -378,7 +378,7 @@
 }, {
     "variableName": "TheBlackHandServer",
     "hostname": "I.I.I.I",
-    "organizationName": "I.I.I.I",
+    "organization": "I.I.I.I",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -394,7 +394,7 @@
 }, {
     "variableName": "LexoCorpServer",
     "hostname": "lexo-corp",
-    "organizationName": "Lexo Corporation",
+    "organization": "Lexo Corporation",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -409,7 +409,7 @@
 }, {
     "variableName": "RhoConstructionServer",
     "hostname": "rho-construction",
-    "organizationName": "Rho Construction",
+    "organization": "Rho Construction",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -424,7 +424,7 @@
 }, {
     "variableName": "AlphaEnterprisesServer",
     "hostname": "alpha-ent",
-    "organizationName": "Alpha Enterprises",
+    "organization": "Alpha Enterprises",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -439,7 +439,7 @@
 }, {
     "variableName": "AevumPoliceServer",
     "hostname": "aevum-police",
-    "organizationName": "Aevum Police Network",
+    "organization": "Aevum Police Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -454,7 +454,7 @@
 }, {
     "variableName": "MilleniumFitnessGymServer",
     "hostname": "millenium-fitness",
-    "organizationName": "Millenium Fitness Network",
+    "organization": "Millenium Fitness Network",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -469,7 +469,7 @@
 }, {
     "variableName": "GlobalPharmaceuticalsServer",
     "hostname": "global-pharm",
-    "organizationName": "Global Pharmaceuticals",
+    "organization": "Global Pharmaceuticals",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -484,7 +484,7 @@
 }, {
     "variableName": "AeroCorpServer",
     "hostname": "aerocorp",
-    "organizationName": "AeroCorp",
+    "organization": "AeroCorp",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -499,7 +499,7 @@
 }, {
     "variableName": "GalacticCyberSystemsServer",
     "hostname": "galactic-cyber",
-    "organizationName": "Galactic Cybersystems",
+    "organization": "Galactic Cybersystems",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -514,7 +514,7 @@
 }, {
     "variableName": "SnapFitnessGymServer",
     "hostname": "snap-fitness",
-    "organizationName": "Snap Fitness",
+    "organization": "Snap Fitness",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -529,7 +529,7 @@
 }, {
     "variableName": "DeltaOneServer",
     "hostname": "deltaone",
-    "organizationName": "Delta One",
+    "organization": "Delta One",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -544,7 +544,7 @@
 }, {
     "variableName": "UnitaLifeGroupServer",
     "hostname": "unitalife",
-    "organizationName": "UnitaLife Group",
+    "organization": "UnitaLife Group",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -559,7 +559,7 @@
 }, {
     "variableName": "OmniaCybersystemsServer",
     "hostname": "omnia",
-    "organizationName": "Omnia Cybersystems",
+    "organization": "Omnia Cybersystems",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -574,7 +574,7 @@
 }, {
     "variableName": "ZeusMedicalServer",
     "hostname": "zeud-med",
-    "organizationName": "Zeus Medical",
+    "organization": "Zeus Medical",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -589,7 +589,7 @@
 }, {
     "variableName": "SolarisSpaceSystemsServer",
     "hostname": "solaris",
-    "organizationName": "Solaris Space Systems",
+    "organization": "Solaris Space Systems",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -604,7 +604,7 @@
 }, {
     "variableName": "UniversalEnergyServer",
     "hostname": "univ-energy",
-    "organizationName": "Universal Energy",
+    "organization": "Universal Energy",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -619,7 +619,7 @@
 }, {
     "variableName": "IcarusMicrosystemsServer",
     "hostname": "icarus",
-    "organizationName": "Icarus Microsystems",
+    "organization": "Icarus Microsystems",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -634,7 +634,7 @@
 }, {
     "variableName": "DefCommServer",
     "hostname": "defcomm",
-    "organizationName": "DefComm",
+    "organization": "DefComm",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -649,7 +649,7 @@
 }, {
     "variableName": "NovaMedicalServer",
     "hostname": "nova-med",
-    "organizationName": "Nova Medical",
+    "organization": "Nova Medical",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -664,7 +664,7 @@
 }, {
     "variableName": "ZBDefenseServer",
     "hostname": "zb-def",
-    "organizationName": "ZB Defense Industries",
+    "organization": "ZB Defense Industries",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -679,7 +679,7 @@
 }, {
     "variableName": "TaiYangDigitalServer",
     "hostname": "taiyang-digital",
-    "organizationName": "Taiyang Digital",
+    "organization": "Taiyang Digital",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -694,7 +694,7 @@
 }, {
     "variableName": "InfoCommServer",
     "hostname": "infocomm",
-    "organizationName": "InfoComm",
+    "organization": "InfoComm",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -709,7 +709,7 @@
 }, {
     "variableName": "AppliedEnergeticsServer",
     "hostname": "applied-energetics",
-    "organizationName": "Applied Energetics",
+    "organization": "Applied Energetics",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -724,7 +724,7 @@
 }, {
     "variableName": "MicrodyneTechnologiesServer",
     "hostname": "microdyne",
-    "organizationName": "Microdyne Technologies",
+    "organization": "Microdyne Technologies",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -739,7 +739,7 @@
 }, {
     "variableName": "TitanLabsServer",
     "hostname": "titan-labs",
-    "organizationName": "Titan Laboratories",
+    "organization": "Titan Laboratories",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -754,7 +754,7 @@
 }, {
     "variableName": "BitRunnersServer",
     "hostname": "run4theh111z",
-    "organizationName": "The Runners",
+    "organization": "The Runners",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -770,7 +770,7 @@
 }, {
     "variableName": "VitaLifeServer",
     "hostname": "vitalife",
-    "organizationName": "VitaLife",
+    "organization": "VitaLife",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -785,7 +785,7 @@
 }, {
     "variableName": "HeliosLabsServer",
     "hostname": "helios",
-    "organizationName": "Helios Labs",
+    "organization": "Helios Labs",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -800,7 +800,7 @@
 }, {
     "variableName": "StormTechnologiesServer",
     "hostname": "stormtech",
-    "organizationName": "Storm Technologies",
+    "organization": "Storm Technologies",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -815,7 +815,7 @@
 }, {
     "variableName": "FulcrumTechnologiesServer",
     "hostname": "fulcrumtech",
-    "organizationName": "Fulcrum Technologies",
+    "organization": "Fulcrum Technologies",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -830,7 +830,7 @@
 }, {
     "variableName": "KuaiGongInternationalServer",
     "hostname": "kuai-gong",
-    "organizationName": "KuaiGong International",
+    "organization": "KuaiGong International",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -845,7 +845,7 @@
 }, {
     "variableName": "FourSigmaServer",
     "hostname": "4sigma",
-    "organizationName": "FourSigma",
+    "organization": "FourSigma",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -860,7 +860,7 @@
 }, {
     "variableName": "OmniTekIncorporatedServer",
     "hostname": "omnitek",
-    "organizationName": "OmniTek Incorporated",
+    "organization": "OmniTek Incorporated",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -875,7 +875,7 @@
 }, {
     "variableName": "DarkArmyServer",
     "hostname": ".",
-    "organizationName": ".",
+    "organization": ".",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -891,7 +891,7 @@
 }, {
     "variableName": "PowerhouseGymServer",
     "hostname": "powerhouse-fitness",
-    "organizationName": "Powerhouse Fitness",
+    "organization": "Powerhouse Fitness",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -906,7 +906,7 @@
 }, {
     "variableName": "ClarkeIncorporatedServer",
     "hostname": "clarkeinc",
-    "organizationName": "Clarke Incorporated",
+    "organization": "Clarke Incorporated",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -921,7 +921,7 @@
 }, {
     "variableName": "NWOServer",
     "hostname": "nwo",
-    "organizationName": "New World Order",
+    "organization": "New World Order",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -936,7 +936,7 @@
 }, {
     "variableName": "BladeIndustriesServer",
     "hostname": "blade",
-    "organizationName": "Blade Industries",
+    "organization": "Blade Industries",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -951,7 +951,7 @@
 }, {
     "variableName": "BachmanAndAssociatesServer",
     "hostname": "b-and-a",
-    "organizationName": "Bachman & Associates",
+    "organization": "Bachman & Associates",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -966,7 +966,7 @@
 }, {
     "variableName": "FulcrumSecretTechnologiesServer",
     "hostname": "fulcrumassets",
-    "organizationName": "Fulcrum Technologies Assets",
+    "organization": "Fulcrum Technologies Assets",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -982,7 +982,7 @@
 }, {
     "variableName": "MegaCorpServer",
     "hostname": "megacorp",
-    "organizationName": "MegaCorp",
+    "organization": "MegaCorp",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -997,7 +997,7 @@
 }, {
     "variableName": "ECorpServer",
     "hostname": "ecorp",
-    "organizationName": "ECorp",
+    "organization": "ECorp",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -1012,7 +1012,7 @@
 }, {
     "variableName": "DaedalusServer",
     "hostname": "Icarus",
-    "organizationName": "Icarus",
+    "organization": "Icarus",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,
@@ -1028,7 +1028,7 @@
 }, {
     "variableName": "WorldDaemon",
     "hostname": "w0r1d_d43m0n",
-    "organizationName": "w0r1d_d43m0n",
+    "organization": "w0r1d_d43m0n",
     "onlineStatus": true,
     "isConnectedTo": false,
     "adminRights": false,

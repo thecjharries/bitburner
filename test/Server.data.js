@@ -1,11 +1,11 @@
 module.exports = {
     constructorSignature: {
-        ip: "1.1.1.1",
+        ip: [1,1,1,1],
         hostname: "box",
         organization: "test"
     },
     initialize: {
-        ip: "1.1.1.1",
+        ip: [1,1,1,1],
         hostname: "box",
         organization: "test",
         isOnline: false,

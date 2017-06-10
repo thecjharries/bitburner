@@ -21,5 +21,6 @@
     "timesHacked": 0,
     "serversOnNetwork": [],
     "numOpenPortsRequired": 5,
-    "openPorts": [false, false, false, false, false]
+    "openPorts": [false, false, false, false, false],
+    "networkGroup": -1
 }

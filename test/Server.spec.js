@@ -11,6 +11,7 @@ const data = require(path.join(__dirname, "Server.data"));
 
 describe("Server", () => {
     let server;
+    const steps = [...Array(10)].map(() => Math.floor(Math.random() * 15 + 1));
 
     beforeEach(() => {
         server = new Server(data.constructorSignature);
@@ -41,7 +42,7 @@ describe("Server", () => {
         it("should accept a proper signature", () => {
             const initStub = sinon.stub(Server.prototype, "initialize");
             server = new Server(data.constructorSignature);
-            server.ip.should.equal(data.constructorSignature.ip);
+            server.ip.should.equal(data.constructorSignature.ip.join("."));
             server.hostname.should.equal(data.constructorSignature.hostname);
             server.organization.should.equal(data.constructorSignature.organization);
             initStub.calledWith(data.constructorSignature).should.be.true;
@@ -87,6 +88,28 @@ describe("Server", () => {
         it("should gracefully ignore bad script names", () => {
             // https://github.com/chaijs/chai/issues/90
             should.not.exist(server.getScript());
+        });
+    });
+
+    describe("fortify", () => {
+        it("should increase and stop at the limit", () => {
+            let value = server.hackDifficulty;
+            for (const step of steps) {
+                value = (value += step) > Server.RANGES.HACK_DIFFICULTY.MAX ? Server.RANGES.HACK_DIFFICULTY.MAX : value;
+                server.fortify(step).should.equal(value);
+            }
+            server.fortify(9001).should.equal(Server.RANGES.HACK_DIFFICULTY.MAX);
+        });
+    });
+
+    describe("weaken", () => {
+        it("should decrease and stop at the limit", () => {
+            let value = server.hackDifficulty;
+            for (const step of steps) {
+                value = (value -= step * .1) < Server.RANGES.HACK_DIFFICULTY.MIN ? Server.RANGES.HACK_DIFFICULTY.MIN : value;
+                server.weaken(step * .1).should.equal(value);
+            }
+            server.weaken(9001).should.equal(Server.RANGES.HACK_DIFFICULTY.MIN);
         });
     });
 

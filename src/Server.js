@@ -4,6 +4,12 @@ const SERVER_DEFAULTS = require(path.join(__dirname, "..", "data", "server-defau
 
 // TODO: getServerOnNetwork
 module.exports = class Server {
+    static get RANGES() {
+        return {
+            HACK_DIFFICULTY: { MIN: 1, MAX: 99 }
+        };
+    }
+
     static get DEFAULTS() {
         return SERVER_DEFAULTS;
     }
@@ -20,7 +26,7 @@ module.exports = class Server {
 
     constructor(config = {}) {
         if (config.ip && config.hostname && config.organization) {
-            this.ip = config.ip;
+            this.ip = config.ip.join(".");
             this.hostname = config.hostname;
             this.organization = config.organization;
             this.initialize(config);
@@ -49,5 +55,22 @@ module.exports = class Server {
 
     getScript(scriptName) {
         return this.scripts[scriptName] || null;
+    }
+
+    fortify(amount) {
+        this.hackDifficulty = (this.hackDifficulty += amount) > Server.RANGES.HACK_DIFFICULTY.MAX ? Server.RANGES.HACK_DIFFICULTY.MAX : this.hackDifficulty;
+        return this.hackDifficulty;
+    }
+
+    weaken(amount) {
+        this.hackDifficulty = (this.hackDifficulty -= amount) < Server.RANGES.HACK_DIFFICULTY.MIN ? Server.RANGES.HACK_DIFFICULTY.MIN : this.hackDifficulty;
+        return this.hackDifficulty;
+    }
+
+    link(server, first = true) {
+        this.serversOnNetwork.push(server);
+        if (first) {
+            server.link(this, false);
+        }
     }
 };

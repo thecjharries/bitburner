@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 //Netburner String helper functions
 
 //Searches for every occurence of searchStr within str and returns an array of the indices of
@@ -22,7 +23,7 @@ function getIndicesOf(searchStr, str, caseSensitive) {
 //Replaces the character at an index with a new character
 String.prototype.replaceAt=function(index, character) {
     return this.substr(0, index) + character + this.substr(index+character.length);
-}
+};
 
 //Converts a date representing time in milliseconds to a string with the format
 //      H hours M minutes and S seconds
@@ -31,23 +32,23 @@ String.prototype.replaceAt=function(index, character) {
 function convertTimeMsToTimeElapsedString(time) {
     //Convert ms to seconds, since we only have second-level precision
     time = Math.floor(time / 1000);
-    
+
     var days = Math.floor(time / 86400);
     time %= 86400;
-    
+
     var hours = Math.floor(time / 3600);
     time %= 3600;
-    
+
     var minutes = Math.floor(time / 60);
     time %= 60;
-    
+
     var seconds = time;
-    
-    var res = "";
-    if (days) {res += days + " days ";}
-    if (hours) {res += hours + " hours ";}
-    if (minutes) {res += minutes + " minutes ";}
-    res += seconds + " seconds ";
+
+    var res = '';
+    if (days) {res += days + ' days ';}
+    if (hours) {res += hours + ' hours ';}
+    if (minutes) {res += minutes + ' minutes ';}
+    res += seconds + ' seconds ';
     return res;
 }
 
@@ -55,9 +56,9 @@ function convertTimeMsToTimeElapsedString(time) {
 function longestCommonStart(strings) {
     if (!containsAllStrings(strings)) {return;}
     if (strings.length == 0) {return;}
-    
-    var A = strings.concat().sort(), 
-    a1= A[0], a2= A[A.length-1], L= a1.length, i= 0;
+
+    var A = strings.concat().sort(),
+        a1= A[0], a2= A[A.length-1], L= a1.length, i= 0;
     while(i<L && a1.charAt(i)=== a2.charAt(i)) i++;
     return a1.substring(0, i);
 }
@@ -88,12 +89,12 @@ function formatNumber(num, numFractionDigits) {
 
 //Count the number of times a substring occurs in a string
 function numOccurrences(string, subString) {
-    string += "";
-    subString += "";
+    string += '';
+    subString += '';
     if (subString.length <= 0) return (string.length + 1);
 
     var n = 0, pos = 0, step = subString.length;
-
+    // eslint-disable-next-line no-constant-condition
     while (true) {
         pos = string.indexOf(subString, pos);
         if (pos >= 0) {
@@ -105,23 +106,24 @@ function numOccurrences(string, subString) {
 }
 
 //Counters the number of Netscript operators in a string
+/* global dialogBoxCreate */
 function numNetscriptOperators(string) {
     var total = 0;
-    total += numOccurrences(string, "+");
-    total += numOccurrences(string, "-");
-    total += numOccurrences(string, "*");
-    total += numOccurrences(string, "/");
-    total += numOccurrences(string, "%");
-    total += numOccurrences(string, "&&");
-    total += numOccurrences(string, "||");
-    total += numOccurrences(string, "<");
-    total += numOccurrences(string, ">");
-    total += numOccurrences(string, "<=");
-    total += numOccurrences(string, ">=");
-    total += numOccurrences(string, "==");
-    total += numOccurrences(string, "!=");
+    total += numOccurrences(string, '+');
+    total += numOccurrences(string, '-');
+    total += numOccurrences(string, '*');
+    total += numOccurrences(string, '/');
+    total += numOccurrences(string, '%');
+    total += numOccurrences(string, '&&');
+    total += numOccurrences(string, '||');
+    total += numOccurrences(string, '<');
+    total += numOccurrences(string, '>');
+    total += numOccurrences(string, '<=');
+    total += numOccurrences(string, '>=');
+    total += numOccurrences(string, '==');
+    total += numOccurrences(string, '!=');
     if (isNaN(total)) {
-        dialogBoxCreate("ERROR in counting number of operators in script. This is a bug, please report to game developer");
+        dialogBoxCreate('ERROR in counting number of operators in script. This is a bug, please report to game developer');
         total = 0;
     }
     return total;

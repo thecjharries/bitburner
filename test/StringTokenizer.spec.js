@@ -7,7 +7,7 @@ const should = chai.should();
 const path = require("path");
 
 const StringTokerizer = require(path.join(__dirname, "..", "utils", "StringTokenizer"));
-const data = require(path.join(__dirname, "StringParsing.data"));
+const data = require(path.join(__dirname, "StringTokenizer.data"));
 
 describe("StringTokerizer", () => {
     let tokenizer;

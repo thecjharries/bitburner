@@ -17,9 +17,16 @@
   },
   "homepage": "https://github.com/danielyxie/bitburner#readme",
   "devDependencies": {
+    "chai": "^4.0.2",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-mocha": "^4.9.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.4"
+  },
+  "dependencies": {
+    "btoa": "^1.1.2"
   }
 }
